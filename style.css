@@ -1044,5 +1044,7 @@ footer{
     --third-color: #e41212;
  } 
  
- 
+ #icon{
+    cursor: pointer;
+ }
 
