@@ -85,3 +85,18 @@ document.addEventListener('DOMContentLoaded', function() {
     setSlidePosition();
     startAutoSlide();
 });
+
+
+ // create dark theme
+
+ const icon = document.getElementById("icon");
+icon.onclick = function (){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "images/sun-fill (2).svg";
+    }
+    else{
+        icon.src = "images/moon-fill.svg";
+    }
+   
+}
